@@ -1,12 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import StarWarsList from './StarWarsList';
-import {
-	Card,
-	CardText,
-	CardBody,
-	CardTitle
-} from 'reactstrap';
+import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 
 const App = () => {
 	// Try to think through what state you'll need for this app before starting. Then build out

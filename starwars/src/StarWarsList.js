@@ -25,6 +25,7 @@ function StarWarsList() {
 					<StarWarsCard
 						name={profile.name}
 						gender={profile.gender}
+						hairColor={profile.hair_color}
 						height={profile.height}
 					/>
 				);

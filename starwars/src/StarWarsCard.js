@@ -13,6 +13,7 @@ const StarWarsCard = props => {
 				<CardBody>
 					<CardTitle>Name: {props.name}</CardTitle>
 					<CardText>Gender: {props.gender}</CardText>
+					<CardText>Hair: {props.hair_color}</CardText>
 					<CardText>Height: {props.height}</CardText>
 				</CardBody>
 			</Card>
