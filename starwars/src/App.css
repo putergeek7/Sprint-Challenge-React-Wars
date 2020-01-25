@@ -1,8 +1,28 @@
 .App {
-  text-align: center;
+	text-align: center;
 }
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+	color: black;
+	text-shadow: 1px 1px 5px gray;
 }
 /* write your parent styles in here for your App.js */
+
+.card {
+	flex-grow: 1;
+	height: auto;
+	padding: 50px;
+	margin: 20px;
+	margin-left: 440px;
+	width: 400px;
+}
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+.completeCard {
+	width: 70%;
+	margin: 0 auto;
+}
