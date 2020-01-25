@@ -24,13 +24,8 @@ function StarWarsList() {
 				return (
 					<StarWarsCard
 						name={profile.name}
-						birthYear={profile.birth_year}
 						gender={profile.gender}
 						height={profile.height}
-						weight={profile.weight}
-						hairColor={profile.hair_color}
-						eyeColor={profile.eye_color}
-						home_world={profile.homeworld}
 					/>
 				);
 			})}

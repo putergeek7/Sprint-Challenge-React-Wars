@@ -7,18 +7,13 @@ const StarWarsCard = props => {
 			<Card
 				body
 				inverse
-				style={{ backgroundColor: 'transparent', borderColor: 'black' }}
+				style={{ backgroundColor: 'black', borderColor: 'white' }}
 				className='card'
 			>
 				<CardBody>
 					<CardTitle>Name: {props.name}</CardTitle>
-					<CardText>Birth Year: {props.birth_year}</CardText>
 					<CardText>Gender: {props.gender}</CardText>
 					<CardText>Height: {props.height}</CardText>
-					<CardText>Weight: {props.weight}</CardText>
-					<CardText>Hair Color: {props.hair_color}</CardText>
-					<CardText>Eye Color: {props.eye_color}</CardText>
-					<CardText>Home World: {props.homeWorld}</CardText>
 				</CardBody>
 			</Card>
 		</div>
