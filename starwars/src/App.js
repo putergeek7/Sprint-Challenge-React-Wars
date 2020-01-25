@@ -1,16 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
-import StarWarsChar from './components/StarWarsChar';
+import StarWarsList from './StarWarsList';
 import {
 	Card,
-	CardImg,
 	CardText,
 	CardBody,
-	CardLink,
-	CardTitle,
-	CardSubtitle
+	CardTitle
 } from 'reactstrap';
-import StarWarsCard from './components/StarsWarsCard';
 
 const App = () => {
 	// Try to think through what state you'll need for this app before starting. Then build out
@@ -23,7 +19,7 @@ const App = () => {
 	return (
 		<div className='App'>
 			<h1 className='Header'>React Wars</h1>
-			<StarWarsCard />
+			<StarWarsList />
 		</div>
 	);
 };
