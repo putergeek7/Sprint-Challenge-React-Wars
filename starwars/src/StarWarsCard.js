@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardText, CardBody, CardTitle } from 'reactstrap';
 
 const StarWarsCard = props => {
+	console.log(props);
 	return (
 		<div>
 			<Card
@@ -13,7 +14,7 @@ const StarWarsCard = props => {
 				<CardBody>
 					<CardTitle>Name: {props.name}</CardTitle>
 					<CardText>Gender: {props.gender}</CardText>
-					<CardText>Hair: {props.hair_color}</CardText>
+					<CardText>Hair: {props.hairColor}</CardText>
 					<CardText>Height: {props.height}</CardText>
 				</CardBody>
 			</Card>
